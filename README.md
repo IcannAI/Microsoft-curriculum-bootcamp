@@ -1,8 +1,8 @@
 # Microsoft-curriculum-bootcamp
 
-### [Data Science for Beginners]
+### Data Science for Beginners
 
-#### Review of Defining Data
+#### **Review of Defining Data**
 What I have learned in this lesson
 - What data is
 - How data is described
