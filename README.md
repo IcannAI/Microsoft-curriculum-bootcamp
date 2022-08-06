@@ -24,14 +24,14 @@ A product's or process's quality can often be captured using a variety of subjec
 - Spreadsheets, relational databases, phone numbers, and bank statements are examples of structured data.
 
 ##### Unstructured Data
-Unstructured data typically cannot be categorized into rows or columns and doesn't contain a format or set of rules to follow. Because unstructured data has less restrictions on its structure it's easier to add new information in comparison to a structured dataset. If a sensor capturing data on barometric pressure every 2 minutes has received an update that now allows it to measure and record temperature, it doesn't require altering the existing data if it's unstructured. However, this may make analyzing or investigating this type of data take longer. For example, a scientist who wants to find the average temperature of the previous month from the sensors data, but discovers that the sensor recorded an "e" in some of its recorded data to note that it was broken instead of a typical number, which means the data is incomplete.
-
-Examples of unstructured data: text files, text messages, video files
+- Unstructured data generally lacks a standard or set of rules to follow and can't be organised into rows or columns. In contrast to a structured dataset, unstructured data has less constraint on its structure, making it simpler to add new information. 
+- It is not necessary to change the existing data if a sensor capturing barometric pressure data every two minutes has been updated to monitor and record temperature.
+- Text files, text messages, video files are examples of unstructured data.
 
 ##### Semi-structured
 Semi-structured data has features that make it a combination of structured and unstructured data. It doesn't typically conform to a format of rows and columns but is organized in a way that is considered structured and may follow a fixed format or set of rules. The structure will vary between sources, such as a well defined hierarchy to something more flexible that allows for easy integration of new information. Metadata are indicators that help decide how the data is organized and stored and will have various names, based on the type of data. Some common names for metadata are tags, elements, entities and attributes. For example, a typical email message will have a subject, body and a set of recipients and can be organized by whom or when it was sent.
 
-Examples of semi-structured data: HTML, CSV files, JavaScript Object Notation (JSON)
+- HTML, CSV files, JavaScript Object Notation (JSON) are examples of semi-structured data.
 
 
 
