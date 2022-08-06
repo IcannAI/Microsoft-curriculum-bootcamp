@@ -1,6 +1,14 @@
 # Microsoft-curriculum-bootcamp
 
 ### Data Science for Beginners
+
+#### Review of Defining Data
+What I have learned in this lesson
+- What data is
+- How data is described
+- How data is classified and categorized
+- Where data can be found
+
 ##### Quantitative Data
 - In a dataset, quantitative data refers to numerical observations that can often be quantified, analysed, and used mathematically. The population of a nation, a person's height, or a company's quarterly profits are a few examples of quantitative data. 
 - Quantitative data might be used to determine seasonal variations in the Air Quality Index (AQI) or calculate the probability of rush hour traffic on an average workday.
@@ -25,6 +33,20 @@ Examples of unstructured data: text files, text messages, video files
 Semi-structured data has features that make it a combination of structured and unstructured data. It doesn't typically conform to a format of rows and columns but is organized in a way that is considered structured and may follow a fixed format or set of rules. The structure will vary between sources, such as a well defined hierarchy to something more flexible that allows for easy integration of new information. Metadata are indicators that help decide how the data is organized and stored and will have various names, based on the type of data. Some common names for metadata are tags, elements, entities and attributes. For example, a typical email message will have a subject, body and a set of recipients and can be organized by whom or when it was sent.
 
 Examples of semi-structured data: HTML, CSV files, JavaScript Object Notation (JSON)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Python
 ### Fronted Bootcamp
