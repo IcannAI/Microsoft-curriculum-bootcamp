@@ -35,6 +35,7 @@ A product's or process's quality can often be captured using a variety of subjec
 - Based on the type of data, metadata will have various names and serve as indicators for how the data is kept and arranged. Tags, elements, entities, and attributes are a few of the frequent names for metadata. For example, an email message has a topic, a body, and a list of recipients. It can also be classified according to whom and when it was delivered.
 - HTML, CSV files, JavaScript Object Notation (JSON) are examples of semi-structured data.
 
+--------------------------------------------------------------
 
 #### L5 | Review of Working with Relational Data
 What I have learned in this lesson
@@ -71,13 +72,27 @@ Until now we've retrieved data from a single table. Now we want to bring the dat
 
 Relational databases are centered around dividing information between multiple tables which is then brought back together for display and analysis. This provides a high degree of flexibility to perform calculations and otherwise manipulate data. You have seen the core concepts of a relational database, and how to perform a join between two tables.
 
+------------------------------------------------------------------------
 
+#### L6 | Review of Working with NoSQL Data
 
+#### L7 | Review of Working with Python
 
+#### L8 | Review of Data Preparation
 
+#### L9 | Review of Visualising Quantities
 
+#### L10 | Review of Visualising Distributions of Data
 
+#### L11 | Review of Visualising Proportions
 
+#### L12 | Review of Visualising Relationships
+
+#### L13 | Review of Meaningful Visualising
+
+#### L14 | Review of Intro to the DS Lifecycle
+
+-----------------------------------------------------------------
 ### Python
 ### Fronted Bootcamp
 ### Web Dev for Beginners 
