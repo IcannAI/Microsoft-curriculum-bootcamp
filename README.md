@@ -35,8 +35,17 @@ A product's or process's quality can often be captured using a variety of subjec
 - HTML, CSV files, JavaScript Object Notation (JSON) are examples of semi-structured data.
 
 
+#### Working with Relational Data
+What I have learned in this lesson
+-
+-
+-
+- 
 
-
+##### The shortcomings of a single table approach
+##### The concepts of relationships
+##### Retrieving the data
+##### Joining data
 
 
 
