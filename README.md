@@ -49,13 +49,22 @@ What I have learned in this lesson
 
 ##### The concepts of relationships
 
-- We require a "Primary Key(PK)", "id", and the database terms. A primary key is a value that can be used to locate a particular table row. 
-- We need to choose the best way to reference each city before applying to table.
+- We require a "Primary Key(PK)", "id", and a "Foreign Key(FK)" (the technical relational database terms). 
+- A Primary Key(PK) is a value that can be used to locate a particular table row. 
+- A Foreign Key(FK) is a primary key from another table as a reference or a pointer. 
 - The name of the city, for instance, could be used as the basis for this, although it should nearly always be a number or other identifier. 
+- We need to choose the best way to reference each city before applying to table. 
 - The relationship would end if the id ever changed, thus we do not want it to happen.
-- DataFrames do not use the terminology of "primary key"
+- [Note]DataFrames do not use the terminology of "primary key"
 
 ##### Retrieving the data
+
+- Understand how we retrieve the data when it is split between two tables. We can utilise a language known as Structured Query Language(SQL), if we are utilising a relational database like MySQL, SQL Server, or Oracle. A relational database's data can be retrieved and modified using SQL, which is a standard language.
+- We can use the SELECT command to get data choosing the columns we wish to view from the table that contains them.
+- SELECT is where you list the columns, and FROM is where you list the tables.
+- [NOTE] SQL syntax is case-insensitive, meaning select and SELECT mean the same thing. However, depending on the type of database you are using the columns and tables might be case sensitive. As a result, it's a best practice to always treat everything in programming like it's case sensitive. When writing SQL queries common convention is to put the keywords in all upper-case letters.
+
+
 ##### Joining data
 
 
