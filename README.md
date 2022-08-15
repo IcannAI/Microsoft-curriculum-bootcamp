@@ -37,13 +37,24 @@ A product's or process's quality can often be captured using a variety of subjec
 
 #### Working with Relational Data
 What I have learned in this lesson
--
--
--
-- 
+- A collection of columns and rows called table, are the foundation of a relational database. Much like a spreadsheet. 
+- The shortcomings of a single table approach
+- The concepts of relationships
+- Retrieving the data
+- Joining data
 
 ##### The shortcomings of a single table approach
+- Having numerous copies of that would be entirely unnecessary and may consume a significant amount of storage. 
+- While doing so prevents row duplication, it adds a few new challenges. For this reason, we require multiple tables and relationships. By segmenting our data, we can prevent duplication and increase our flexibility in the data.
+
 ##### The concepts of relationships
+
+- We require a "Primary Key(PK)", "id", and the database terms. A primary key is a value that can be used to locate a particular table row. 
+- We need to choose the best way to reference each city before applying to table.
+- The name of the city, for instance, could be used as the basis for this, although it should nearly always be a number or other identifier. 
+- The relationship would end if the id ever changed, thus we do not want it to happen.
+- DataFrames do not use the terminology of "primary key"
+
 ##### Retrieving the data
 ##### Joining data
 
