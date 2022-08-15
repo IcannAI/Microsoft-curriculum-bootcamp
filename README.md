@@ -1,7 +1,8 @@
 # Microsoft-curriculum-bootcamp
 
 ### Data Science for Beginners
-#### Review of Defining Data
+
+#### L3 | Review of Defining Data
 What I have learned in this lesson
 - What data is
 - How data is described
@@ -35,7 +36,7 @@ A product's or process's quality can often be captured using a variety of subjec
 - HTML, CSV files, JavaScript Object Notation (JSON) are examples of semi-structured data.
 
 
-#### Working with Relational Data
+#### L5 | Review of Working with Relational Data
 What I have learned in this lesson
 - A collection of columns and rows called table, are the foundation of a relational database. Much like a spreadsheet. 
 - The shortcomings of a single table approach
@@ -61,14 +62,14 @@ What I have learned in this lesson
 
 - Understand how we retrieve the data when it is split between two tables. We can utilise a language known as Structured Query Language(SQL), if we are utilising a relational database like MySQL, SQL Server, or Oracle. A relational database's data can be retrieved and modified using SQL, which is a standard language.
 - We can use the SELECT command to get data choosing the columns we wish to view from the table that contains them.
-- SELECT is where you list the columns, and FROM is where you list the tables.
+- SELECT is "where we list the columns", FROM is "where we list the tables", and WHERE is "where something is true".
 - [NOTE] SQL syntax is case-insensitive, meaning select and SELECT mean the same thing. However, depending on the type of database you are using the columns and tables might be case sensitive. As a result, it's a best practice to always treat everything in programming like it's case sensitive. When writing SQL queries common convention is to put the keywords in all upper-case letters.
 
 
 ##### Joining data
+Until now we've retrieved data from a single table. Now we want to bring the data together from both cities and rainfall. This is done by joining them together. You will effectively create a seam between the two tables, and match up the values from a column from each table. In our example, we will match the city_id column in rainfall with the city_id column in cities. This will match the rainfall value with its respective city. The type of join we will perform is what's called an inner join, meaning if any rows don't match with anything from the other table they won't be displayed. In our case every city has rainfall, so everything will be displayed.
 
-
-
+Relational databases are centered around dividing information between multiple tables which is then brought back together for display and analysis. This provides a high degree of flexibility to perform calculations and otherwise manipulate data. You have seen the core concepts of a relational database, and how to perform a join between two tables.
 
 
 
